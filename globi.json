@@ -1,0 +1,58 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://zenodo.org/records/7821119/files/TuneuCorral%20etal%202023_BatPest_1.0.1.csv",
+    "dcterms:bibliographicCitation" : "Carme Tuneu-Corral, Xavier Puig-Montserrat, Dani Riba-Bertolín, Danilo Russo, Hugo Rebelo, Mar Cabeza-Jaimejuan, & Adrià López-Baucells. (2023). Interactions between bats and agricultural insect pests worlwide (1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7821119",
+    "delimiter" : ",",
+    "headerRowCount" : 2,
+    "interactionTypeName": "preyedUponBy",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002458",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "Pest Order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Pest genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "Pest species",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "Bat genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithetName",
+        "titles" : "Bat species",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecord",
+        "titles" : "Method",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Habitat type",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Reference",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
